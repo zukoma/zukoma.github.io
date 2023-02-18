@@ -1,0 +1,64 @@
+baseurl = "https://zukovskis.lt"
+title = "Marius Žukovskis"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+#disqusShortname = "yourdiscussshortname"
+googleAnalytics = "G-K6PVNHM1P1"
+
+[params]
+  author = "Marius Žukovskis"
+  description = "My personal website"
+  keywords = "blog,developer,personal,ctf,cybersecurity,pentesting,redteam,blueteam"
+  #avatarurl = "diimages/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/zukoma/"
+[[params.social]]
+  name = "Linkedin"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://www.linkedin.com/in/mariuszuk/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 3
+  url = "about/"
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  url = "/"
